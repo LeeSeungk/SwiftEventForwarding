@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B679F32A25919600FF02C5 /* PopUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B679F22A25919600FF02C5 /* PopUpDelegate.swift */; };
 		F265A0A1248BE82E00780D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265A0A0248BE82E00780D17 /* AppDelegate.swift */; };
 		F265A0A3248BE82E00780D17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265A0A2248BE82E00780D17 /* SceneDelegate.swift */; };
 		F265A0A5248BE82E00780D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265A0A4248BE82E00780D17 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96B679F22A25919600FF02C5 /* PopUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDelegate.swift; sourceTree = "<group>"; };
 		F265A09D248BE82E00780D17 /* CustomDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F265A0A0248BE82E00780D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F265A0A2248BE82E00780D17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				F265A0AE248BE82E00780D17 /* Info.plist */,
 				F265A0B4248BEBFB00780D17 /* PopUp.storyboard */,
 				F265A0B6248BEC6100780D17 /* AlertPopUpViewController.swift */,
+				96B679F22A25919600FF02C5 /* PopUpDelegate.swift */,
 			);
 			path = CustomDialog;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B679F32A25919600FF02C5 /* PopUpDelegate.swift in Sources */,
 				F265A0B7248BEC6100780D17 /* AlertPopUpViewController.swift in Sources */,
 				F265A0A5248BE82E00780D17 /* ViewController.swift in Sources */,
 				F265A0A1248BE82E00780D17 /* AppDelegate.swift in Sources */,
